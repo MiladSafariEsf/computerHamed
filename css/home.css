@@ -2,7 +2,6 @@ header .nav{
     display: flex;
     justify-content: space-between;
     padding: 6px;
-    background-color: #b2bec3;
 }
 header .nav .left-nav{
     display: flex;
@@ -10,12 +9,20 @@ header .nav .left-nav{
     align-items: center;
     border: 2px;
 }
+header .nav .left-nav .login a,
+header .nav .left-nav .signup a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* تغییر رنگ تگ a */
+    text-decoration: none; /* حذف خط زیرین تگ a */
+}
 header .nav .left-nav .login{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 3px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
     padding: 8px 8px;
     margin: 2px 2px;
     color: #000;
@@ -24,8 +31,8 @@ header .nav .left-nav .signup{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 3px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
     padding: 8px 8px;
     margin: 2px 2px;
     color: #000;
@@ -44,4 +51,24 @@ header .nav .right-nav h1{
     font-size: 1.2rem;
     margin: 0;
     margin-left: 10px;
+}
+/* slider */
+.slider{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+@media (max-width: 380px) {
+    
+    header .nav .right-nav i{
+        font-size: 0.8rem;
+    }
+    header .nav .right-nav h1{
+
+        font-size: 0.8rem;
+    }
+    header .nav .left-nav .login a,
+    header .nav .left-nav .signup a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
 }
