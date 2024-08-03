@@ -1,10 +1,11 @@
+// particlesJS.js
 particlesJS('particles-js', {
     "particles": {
         "number": {
-            "value": 30,
+            "value": 50,
             "density": {
                 "enable": true,
-                "value_area": 1000
+                "value_area": 800
             }
         },
         "color": {
@@ -70,8 +71,8 @@ particlesJS('particles-js', {
                 "mode": "grab"
             },
             "onclick": {
-                "enable": false,
-                "mode": "push"
+                "enable": true,
+                "mode": "repulse"
             },
             "resize": true
         },

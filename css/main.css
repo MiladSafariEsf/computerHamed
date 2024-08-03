@@ -1,3 +1,4 @@
+/* main.css */
 @font-face{
     font-family: iran;
     src: url(../fonts/iran.ttf);
@@ -11,8 +12,7 @@
 
 body{
     font-size: 16px ;
-    margin: 0px ;
-    background-color: #dfe6e9;
+    margin: 0px;
 }
 
 a{
