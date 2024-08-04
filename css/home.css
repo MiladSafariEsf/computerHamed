@@ -85,6 +85,7 @@ body, html {
     width: 100%;
     direction:  ltr;
     overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+    overflow-y: auto;
 }
 
 .slider {
@@ -104,11 +105,12 @@ body, html {
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    position: fixed;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #474787;
+    background: transparent;
 
   }
   
@@ -120,5 +122,57 @@ body, html {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #475045;
-  }
+    background: rgb(52, 86, 44);
+    border-radius: 40px;
+  } 
+  /* footer */
+footer{
+
+    font-size: 1em;
+}
+
+footer .right{
+    padding: 40px;
+}
+
+footer .right .title{
+    padding: 10px 0px;
+
+    font-size: 1.2em;
+}
+
+footer .right  .des{
+    color: rgba(255, 255, 255, .7);
+    line-height: 1.9em;
+    font-size: .9em;
+}
+
+footer .left{
+    padding: 40px;
+}
+
+footer .left .title{
+    padding: 10px 0px;
+    font-size: 1.2em;
+
+}
+
+footer .left .socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer .left .socials a{
+
+    font-size: 1.4em;
+}
+
+
+
+footer .bottom{
+    text-align: center;
+    padding: 15px;
+
+
+}

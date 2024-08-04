@@ -19,9 +19,20 @@ a{
     text-decoration: none ;
 }
 .glass {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(207, 207, 207, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: #fff;
+}
+.glass-button {
+    background: rgba(254, 254, 254, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+}
+.glass-button:hover{
+    color: #fff;
+    backdrop-filter: blur(5px);
 }
