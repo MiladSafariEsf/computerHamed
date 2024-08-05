@@ -110,19 +110,20 @@ body, html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: transparent;
+    background: #474787;
 
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background-color:#218c74;
+
+    background: rgb(75, 124, 64);
     border-radius: 40px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(52, 86, 44);
+    background-color:#218c74;
     border-radius: 40px;
   } 
   /* footer */

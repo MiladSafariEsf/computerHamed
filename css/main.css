@@ -26,13 +26,19 @@ a{
     color: #fff;
 }
 .glass-button {
-    background: rgba(254, 254, 254, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    color: #fff;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.5px);
+-webkit-backdrop-filter: blur(6.5px);
+border: 1px solid rgba(255, 255, 255, 0.64);
 }
 .glass-button:hover{
-    color: #fff;
-    backdrop-filter: blur(5px);
+background: rgba(54, 105, 124, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.2px);
+-webkit-backdrop-filter: blur(8.2px);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
 }
